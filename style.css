@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+:root {
+    --vermelho: #dd0021;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Header */
+
+    header {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: fixed;
+        color: white;
+        width: 100%;
+        padding: 5px 10%;
+        font-size: 20px;
+        background-color: #0e0e10;
+        z-index: 10;
+        
+    }
+
+    ul {
+        list-style: none;
+        text-align: center;
+        
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        text-transform: uppercase;
+        
+    }
+
+    ul a {
+        padding: 3px 8px;
+        transition: all 100ms linear;
+    }
+
+    ul a:hover {
+        background-color: #2a2a2e;
+        border-radius: 4px;
+    }
+
+/* Header */
+
+
+/* Main */
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0e0e10;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px;
+    }
+
+    h3 {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 24px;
+        text-align: center;
+        overflow: hidden;
+        border-right: .15em solid orange; /* criar um efeito de digitação com um "cursor" */
+        white-space: nowrap; /* garante que todo o texto aparecerá em uma linha */
+        margin: 0 auto; /* centraliza horizontalmente */
+        letter-spacing: .15em; /* espaçamento entre letras */
+        animation: typing 3.5s steps(30, end) , blink-caret .75s step-end infinite;
+        color: var(--vermelho);
+        
+      }
+      
+
+    @keyframes typing {
+        from { width: 0% }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: var(--vermelho) }
+    }
+
+    .container {
+        padding: 100px;
+        position: relative;
+    }
+
+    main #arrow-down {
+        position: absolute;
+        bottom: -30px;
+        left: 285px;
+        font-size: 40px;
+        animation: spin .75s infinite linear;
+        
+        animation-direction: alternate;
+    }
+    
+    @keyframes spin {
+        from { padding-bottom: 0;}
+        to { padding-bottom: 20px; }
+    }
+
+    .redes-sociais {
+        padding: 15px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .redes-sociais #linkedin {
+        font-size: 30px;
+        transition: all 150ms linear;
+        padding: 15px;
+    }
+
+    .redes-sociais #github {
+        font-size: 30px;
+        transition: all 150ms linear;
+        padding: 15px;
+    }
+    
+    .redes-sociais #instagram {
+        font-size: 30px;
+        transition: all 150ms linear;
+        padding: 15px;
+    }
+
+    #linkedin:hover, #github:hover, #instagram:hover {
+        background: var(--vermelho);
+    }
+
+    /* Section -- Curriculo */
+
+    .curriculo {
+        height: 180vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #0e0e10;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #sobremim {
+        background-color: #2a2a2e;
+        width: 55%;
+        height: 80%;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    #sobremim #h2--experiencias {
+        font-size: 30px;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        padding: 60px;
+        text-shadow: 1px 1px 1px var(--vermelho);
+    }
+
+    .layout--curriculo {
+        position: absolute;
+        left: 30px;
+        top: 120px;
+    }
+
+    .ball {
+        background-color: var(--vermelho);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .ball2 {
+        background-color: var(--vermelho);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 550px;
+    }
+
+    .ball3 {
+        background-color: var(--vermelho);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 950px;
+    }
+
+    .informacoesPessoais {
+        position: absolute;
+        white-space: nowrap;
+        top: 0px;
+        left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    #sobremim h4 {
+        font-size: 24px;
+    }
+    
+    #sobremim p {
+        padding-top: 10px;
+    } 
+
+    .line {
+        background-color: var(--vermelho);
+        width: 10px;
+        height: 1150px;
+        position: absolute;
+        left: 10px;
+        top: 0px;
+        
+    }
+
+    #sobremim .habilidades {
+        position: absolute;
+        white-space: nowrap;
+        top: 550px;
+        left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .habilidades ul {
+        list-style: initial;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        text-align: start;
+
+    }
+    
+    #sobremim .outros {
+        position: absolute;
+        white-space: nowrap;
+        top: 950px;
+        left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    /* Section -- Curriculo */
+
+    /* Section -- Projetos */
+
+    .projetos {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        background-color: #0e0e10;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layout {
+        width: 55%;
+        
+    }
+
+    .projetos h2 {
+        font-size: 30px;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        text-align: center
+    }
+
+    .projetos .cards--layout {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .projetos .cards--layout .cards {
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        border: #2a2a2e solid 1px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        min-height: 200px;
+        max-height: 300px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+    }
+
+    .projetos .cards--layout .cards:hover {
+        background:#2a2a2e;
+    }
+
+    
+    
+
+    /* Section -- Projetos */
+/* Main */
+
+
