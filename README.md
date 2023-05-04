@@ -16,3 +16,9 @@ O Projeto em si está sido desenvolvido apenas com essas 3 habilidades, pois que
 
 #### Caso queira visualizar o *portfolio* em seu dispositivo basta acessar o link a baixo:
 (Link em breve)
+
+#### Breve correções/atualizações:
+- Responsividade
+- Projetos
+- Footer/Rodapé
+- Links de direcionamento
