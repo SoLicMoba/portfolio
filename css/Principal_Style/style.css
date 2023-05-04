@@ -177,8 +177,8 @@ body {
 
     #sobremim {
         background-color: #2a2a2e;
-        width: 55%;
-        height: 80%;
+        width: 1000px;
+        height: 1400px;
         border-radius: 20px;
         position: relative;
     }
@@ -187,7 +187,7 @@ body {
         font-size: 30px;
         letter-spacing: .2rem;
         text-transform: uppercase;
-        padding: 60px;
+        padding: 40px;
         text-shadow: 1px 1px 1px var(--vermelho);
     }
 
@@ -200,6 +200,7 @@ body {
     .ball {
         background-color: var(--vermelho);
         width: 30px;
+        top: 30px;
         height: 30px;
         border-radius: 50%;
         position: relative;
@@ -211,7 +212,7 @@ body {
         height: 30px;
         border-radius: 50%;
         position: absolute;
-        top: 550px;
+        top: 585px;
     }
 
     .ball3 {
@@ -220,14 +221,13 @@ body {
         height: 30px;
         border-radius: 50%;
         position: absolute;
-        top: 950px;
+        top: 1025px;
     }
 
     .informacoesPessoais {
-        position: absolute;
+        padding-bottom: 20px;
+        padding-left: 50px;
         white-space: nowrap;
-        top: 0px;
-        left: 50px;
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -247,15 +247,14 @@ body {
         height: 1150px;
         position: absolute;
         left: 10px;
-        top: 0px;
+        top: 50px;
         
     }
 
     #sobremim .habilidades {
-        position: absolute;
+        padding-left: 50px;
+        padding-bottom: 20px;
         white-space: nowrap;
-        top: 550px;
-        left: 50px;
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -271,10 +270,8 @@ body {
     }
     
     #sobremim .outros {
-        position: absolute;
+        padding-left: 50px;
         white-space: nowrap;
-        top: 950px;
-        left: 50px;
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -285,7 +282,7 @@ body {
     /* Section -- Projetos */
 
     .projetos {
-        height: 100vh;
+        height: 70vh;
         width: 100vw;
         display: flex;
         justify-content: center;

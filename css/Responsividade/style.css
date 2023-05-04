@@ -1,0 +1,305 @@
+@media screen and (max-width: 1024px) {
+    #sobremim {
+        width: 700px;
+        height: 1450px;
+    }
+
+    #sobremim h4 {
+        font-size: 22px;
+    }
+
+    #sobremim p {
+        font-size: 14px;
+    }
+
+    .ball2 {
+        top: 600px;
+    }
+
+    .ball3 {
+        top: 1025px;
+    }
+
+    .line {
+        height: 1200px;
+    }
+
+    .informacoesPessoais p {
+        max-width: 550px;
+        white-space:normal;
+    }
+
+    .outros p {
+        max-width: 550px;
+        white-space: normal;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position:static ;
+
+    }
+
+    header ul {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 26px;
+        white-space: nowrap;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .ball {
+        width: 20px;
+        height: 20px;
+        top: 20px;
+        left: 5px;
+    }
+
+    .ball2 {
+        width: 20px;
+        height: 20px;
+        left: 5px;
+        top: 555px
+    }
+
+    .ball3 {
+        width: 20px;
+        height: 20px;
+        left: 5px;
+        top: 865px;
+    }
+
+    .line {
+        width: 8px;
+        left: 11.6px;
+        top: 30px;
+        height: 1100px;
+    }
+
+    #curriculo {
+        max-width: 100vw;
+    }
+
+    #sobremim {
+        max-width: 70vw;
+        height: 1300px;
+
+    }
+
+    #sobremim #h2--experiencias {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    #sobremim h4 {
+        font-size: 14px;
+    }
+
+    #sobremim p {
+        font-size: 10px;
+    }
+
+    .informacoesPessoais p {
+        max-width: 200px;
+        white-space:normal;
+    }
+
+    .outros p {
+        max-width: 200px;
+        white-space: normal;
+    }
+
+    .habilidades ul {
+        font-size: 12px;
+    }
+
+    .informacoesPessoais {
+        padding-left: 40px;
+    }
+
+    .projetos {
+        height: 100vh;
+    }
+
+    .layout {
+         width: 100%;
+
+    }
+
+    .cards--layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    main #arrow-down {
+        position: absolute;
+        bottom: -30px;
+        left: 195px;
+        font-size: 30px;
+        animation: spin .75s infinite linear;
+        
+        animation-direction: alternate;
+    }
+
+    #sobremim .habilidades {
+        padding-left: 40px;
+    }
+
+    .habilidades ul {
+        padding-left: 20px;
+    }
+
+    #sobremim .outros {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position:static ;
+
+    }
+
+    header ul {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 26px;
+        white-space: nowrap;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .ball {
+        width: 20px;
+        height: 20px;
+        top: 20px;
+        left: 0px;
+    }
+
+    .ball2 {
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        top: 425px
+    }
+
+    .ball3 {
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        top: 665px;
+    }
+
+    .line {
+        width: 8px;
+        left: 6px;
+        top: 30px;
+        height: 820px;
+    }
+
+    #curriculo {
+        max-width: 100vw;
+    }
+
+    #sobremim {
+        max-width: 70vw;
+        height: 1000px;
+
+    }
+
+    #sobremim #h2--experiencias {
+        font-size: 20px;
+        padding: 50px;
+    }
+
+    #sobremim h4 {
+        font-size: 12px;
+    }
+
+    #sobremim p {
+        font-size: 8px;
+    }
+
+    .informacoesPessoais p {
+        max-width: 200px;
+        white-space:normal;
+    }
+
+    .outros p {
+        max-width: 200px;
+        white-space: normal;
+    }
+
+    .habilidades ul {
+        font-size: 8px;
+    }
+
+    .informacoesPessoais {
+        padding-left: 30px;
+    }
+
+    #sobremim .habilidades {
+        padding-left: 30px;
+    }
+
+    .habilidades ul {
+        padding-left: 20px;
+    }
+
+    #sobremim .outros {
+        padding-left: 30px;
+    }
+
+    .projetos {
+        height: 100vh;
+    }
+
+    .layout {
+         width: 100%;
+
+    }
+
+    .cards--layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    main #arrow-down {
+        position: absolute;
+        bottom: -30px;
+        left: 195px;
+        font-size: 30px;
+        animation: spin .75s infinite linear;
+        
+        animation-direction: alternate;
+    }
+
+}
