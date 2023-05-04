@@ -18,7 +18,6 @@ O Projeto em si está sido desenvolvido apenas com essas 3 habilidades, pois que
 (Link em breve)
 
 #### Breve correções/atualizações:
-- Responsividade
 - Projetos
 - Footer/Rodapé
 - Links de direcionamento
