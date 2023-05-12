@@ -36,6 +36,33 @@
 
 }
 
+@media screen and (max-width: 1366px) {
+
+    .line {
+        display: none;
+    }
+
+    .ball, .ball2, .ball3 {
+        display: none;
+    }
+
+    #sobremim h4 {
+        font-size: 18px;
+    }
+    #sobremim {
+        max-width: 70vw;
+    }
+
+    #sobremim p {
+        font-size: 12px;
+
+    }
+
+    #curriculo {
+        min-height: 200vh;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     body {
