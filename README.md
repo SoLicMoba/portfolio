@@ -15,9 +15,9 @@ O Projeto em si está sido desenvolvido apenas com essas 3 habilidades, pois que
 #### Autor: Richard Re'Code
 
 #### Caso queira visualizar o *portfolio* em seu dispositivo basta acessar o link a baixo:
-(Link em breve)
+https://solicmoba.github.io/portfolio/
 
-#### Breve correções/atualizações:
+#### Updates futuros:
 - Projetos
 - Footer/Rodapé
 - Links de direcionamento
